@@ -1,0 +1,95 @@
+/*-----PRESET--------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 0.875rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* /* -----PROJETO------ */
+
+.grid {
+    width: 404px;
+    height: 404px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(58, 58, 129);
+    margin: 0 auto;
+}
+
+.btn {
+    display: grid;
+    place-content: center;
+}
+
+button {
+    width: 90px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    color: rgb(72, 148, 214);
+    text-transform: capitalize;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px grey;
+}
+button:focus{
+    outline: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: rgb(70, 107, 139);
+
+}
+
+.grid div{
+    width: 40px;
+    height: 40px;
+    border: 0.1px solid rgba(255, 0, 0, 0.027);
+}
+
+.snake{
+    background-color: rgb(42, 165, 31);
+    border-radius: 7px;
+}
+
+.apple{
+    background-color: rgb(134, 17, 41);
+    border-radius: 20px;
+}
