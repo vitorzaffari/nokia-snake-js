@@ -9,7 +9,7 @@ Project made following Ania Kubow's JS game guide. This was made solely for the 
 
 ![Result](teste.gif)
 	
-######  _Frogger feito com JS básico, HTML e CSS_
+######  _Jogo da cobrinha feito com JS básico, HTML e CSS_
 
 _Eu fiz esse projeto antes de fazer os outros jogos, então algumas novidades me deixaram bem confuso, por isso o código não deve estar muito bom. 
 Após completar os outros jogos meu conhecimento sobre os novos métodos melhorou então planejo fazer uma nova versão desse projeto logo._
